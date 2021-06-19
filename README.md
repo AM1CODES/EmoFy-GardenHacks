@@ -32,8 +32,7 @@ The website was designed on Figma.The prototype is available on figma and can be
 
 # Creators
 This project was created for GardenHacks weekend hack hosted by MLH. Here are the contributors - 
-
-
-
-
+  
+| [<img alt="AM1CODES" src="https://avatars.githubusercontent.com/u/52394145?v=4" width="115"><br><sub>Aayush Mishra</sub>](https://github.com/AM1CODES) | [<img alt="mihir7121" src="https://avatars.githubusercontent.com/u/63261772?v=4" width="115"><br><sub>Mihir Nikam</sub>](https://github.com/mihir7121) | [<img alt="Inoxia25" src="https://github.com/XeQariX.png?size=115" width="115"><br><sub>Nandini Jain</sub>](https://github.com/Inoxia25) | [<img alt="shantanuchawan" src="https://avatars.githubusercontent.com/u/58027701?s=120&v=4" width="115"><br><sub>Shantanu Chawan</sub>](https://github.com/shantanuchawan)|
+| :---: |:---: |:---: |:---:|
 
