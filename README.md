@@ -3,7 +3,7 @@
 </p>
 
 </br>
-Ever had to spend minutes just to get the right music to get you started with your day? Music that goes with your mood, something to cheer you up when you are not feeling it, something to go with the happy vibes around or just something to calm you down? We got you covered with **EmoFy** - your perfect work companion to help you get the music for your day.
+Ever had to spend minutes just to get the right music to get you started with your day? Music that goes with your mood, something to cheer you up when you are not feeling it, something to go with the happy vibes around or just something to calm you down? We got you covered with EmoFy - your perfect work companion to help you get the music for your day.
 
 # What's does this app do?
 
