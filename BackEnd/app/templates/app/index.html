@@ -1,0 +1,17 @@
+{% extends './base.html' %}
+{% load static %}
+{% block css %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/homepage.css' %}">
+{% endblock %}
+{% block body %}
+  <div class="mood_detector w-50  mx-auto pt-3 mt-5 p-2 mb-5">
+    <div class="video_player  mx-auto"><img style="width:100%;height:450px;" src="{% url 'rendervideo' %}"></div>
+      <div class="d-flex flex-wrap justify-content-around mt-3">
+          <a href="{% url 'takephoto' %}"><button type="span" class="btn btn-colory btn-lg  rounded"><span class="font-weight-bold">Capture</span></button></a>
+          <!--   -->
+          <a href="{% url 'index' %}"><button type="span" class="btn btn-colorp btn-lg  rounded"><span class="font-weight-bold">Reload</span></button></a>
+      </div>
+    </div>
+  </div>
+{% endblock %}

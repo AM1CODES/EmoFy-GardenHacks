@@ -1,0 +1,29 @@
+{% extends './base.html' %}
+{% load static %}
+{% block css %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/homepage.css' %}">
+{% endblock %}
+{% block body %}
+  <div class="h-100">
+  <div class="music w-50  text-center align-items-center d-flex mx-auto"><span class="font-weight-bold">Your Music</span></div>
+  <div class="playlist mt-2 w-75 px-5 pt-1 pb-4 mx-auto h-100">
+    <div class="music w-25 mb-3 mt-1 rounded text-center align-items-center d-flex mx-auto"><span class="font-weight-bold">Mood  :  {{ prediction }}</span></div>
+    {% if prediction == "Happy" %}
+    <iframe src="https://open.spotify.com/embed/playlist/6z3DLGPU6xhwc9oth76M0h" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe> 
+    {% elif prediction == "Angry" %}
+        <iframe src="https://open.spotify.com/embed/playlist/1YvS8XuFtqM7WiLhpnriML" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    {% elif prediction == "Disgust"%}
+        <iframe src="https://open.spotify.com/embed/playlist/3qgzMg4m5tvf16PzlPgGa9" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    {% elif prediction == "Fear"%}
+        <iframe src="https://open.spotify.com/embed/playlist/5oz1AJtEDn8KEnS0atFL2S" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    {% elif prediction == "Neutral"%}
+        <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DXbYM3nMM0oPk?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    {% elif prediction == "Sad"%}
+        <iframe src="https://open.spotify.com/embed/playlist/17sbUkbtxJHGp3VBvylwLJ" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    {% elif prediction == "Surprise"%}
+        <iframe src="https://open.spotify.com/embed/playlist/37i9dQZEVXbMDoHDwVN2tF" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    {% endif %}
+    </div>
+  </div>
+{% endblock %}

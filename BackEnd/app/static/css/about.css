@@ -1,0 +1,12 @@
+.main{
+    background-color: #383838;
+    height: 75% !important;
+    border-radius:29px;
+}
+.about{
+    border-radius:10px;
+    color: #24C28A !important;
+    font-size:20px;
+    width:90%;
+    height:95px;
+}

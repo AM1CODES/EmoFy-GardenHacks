@@ -1,0 +1,19 @@
+{% extends './base.html' %}
+{% load static %}
+{% block css %}
+  <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
+{% endblock %}
+{% block body %}
+  <div class="d-flex text-center align-items-center ">
+    <div class="get-started d-flex flex-wrap ">
+       <p class="ml-5 text-left">Your work companion to help you get the best music hassle free.</p> 
+        <div class="text-left">
+          <a href="{% url 'index' %}"><button type="span" class="btn btn-color btn-lg ml-5 "><span class="font-weight-bold">Get Started</span></button></a>
+        </div>
+    </div>
+        <div class="d-flex text-center align-items-center">
+            <img class="imagee animated" src="{% static 'images/Illustration 2.png' %}">
+        </div>    
+    <br></br>   
+  </div>  
+ {% endblock %}
