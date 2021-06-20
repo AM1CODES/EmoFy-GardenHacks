@@ -1,0 +1,15 @@
+.main{
+    background-color: #383838;
+    height: 75% !important;
+    border-radius:29px;
+}
+.about{
+    height: 100px;
+}
+.creator_card{
+   background: linear-gradient(180deg, rgba(255, 255, 255, 0.53) 0%, rgba(255, 255, 255, 0.47) 100%);
+   border-radius:29px;
+   width:20%;
+ min-width:200px;
+ height:200px;
+}
