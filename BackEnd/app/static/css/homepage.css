@@ -1,14 +1,14 @@
 .mood_detector{
     background-color:#383838;
-    border-radius:15px;
-    height:550px;
-    padding-top: 50px;
+    border-radius:29px;
+    height:475px;
+    height:auto;
 }
 .video_player{
-    width:90%;
+    width:95%;
     background-color:#151515;
-    border-radius:15px;
-    height:450px;
+    border-radius:29px;
+    height:auto;
 }
 .btn-colory{
  background-color:#FFD80A;
@@ -27,6 +27,7 @@
    }
    .music{
     background-color: #24C28A;
+    width: fit-content;
     height:45px;
     text-align: center;
     justify-content: center;
