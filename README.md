@@ -29,6 +29,27 @@ The website was designed on Figma.The prototype is available on figma and can be
 
 # Project Gallery
 
+<p align="center">
+<img src="https://github.com/AM1CODES/EmoFy-GardenHacks/blob/main/Readme-Assets/Landing.png" alt="drawing" width="500"/>
+</p>
+<p align="center">
+<img src="https://github.com/AM1CODES/EmoFy-GardenHacks/blob/main/Readme-Assets/About.png" alt="drawing" width="500"/>
+</p>
+<p align="center">
+<img src="https://github.com/AM1CODES/EmoFy-GardenHacks/blob/main/Readme-Assets/Screen_Capture_1.png" alt="drawing" width="500"/>
+</p>
+<p align="center">
+<img src="https://github.com/AM1CODES/EmoFy-GardenHacks/blob/main/Readme-Assets/Screen_Capture_2.png" alt="drawing" width="500"/>
+</p>
+<p align="center">
+<img src="https://github.com/AM1CODES/EmoFy-GardenHacks/blob/main/Readme-Assets/Screen_Capture_Mood_1.png" alt="drawing" width="500"/>
+</p>
+<p align="center">
+<img src="https://github.com/AM1CODES/EmoFy-GardenHacks/blob/main/Readme-Assets/Screen_Capture_Mood_2.png" alt="drawing" width="500"/>
+</p>
+<p align="center">
+<img src="https://github.com/AM1CODES/EmoFy-GardenHacks/blob/main/Readme-Assets/Screen_Capture_Mood_3.png" alt="drawing" width="500"/>
+</p>
 
 # Creators
 This project was created for GardenHacks weekend hack hosted by MLH. Here are the contributors - 
